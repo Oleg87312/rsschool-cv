@@ -14,4 +14,16 @@ body{
 .user-name{
     text-align: center;
     font-size: 50px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.information{
+    font-size: 30px;
+    background-color: #8c8b8b;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.about-me{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 20px;
+    float: left;
 }
