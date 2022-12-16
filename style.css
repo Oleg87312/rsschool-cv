@@ -16,11 +16,7 @@ body{
     font-size: 50px;
     font-family: "Poppins", Arial, sans-serif;
 }
-.information{
-    font-size: 30px;
-    background-color: #8c8b8b;
-    font-family: "Poppins", Arial, sans-serif;
-}
+
 .about-me{
     font-size: 25px;
     font-weight: 400;
@@ -28,7 +24,7 @@ body{
     margin-right: 0;
     float: left;
 }
-.skills{
+.h{
     font-size: 30px;
     font-family: "Poppins", Arial, sans-serif;
     float: left;
@@ -36,6 +32,13 @@ body{
     width: 100%;
 }
 .skills-list{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 0;
+    float: left;
+}
+.contact{
     font-size: 25px;
     font-weight: 400;
     margin-left: 20px;
