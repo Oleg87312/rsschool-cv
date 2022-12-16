@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oleg Roslik CV   </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header>
-            <img src="https://memepedia.ru/wp-content/uploads/2019/01/hamster-768x432.jpg" width="200px" height="200px" alt="Avatar" class="round">
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li >
+                    <a href= "#about-me">About me</a></li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="all">
+            <img src="https://memepedia.ru/wp-content/uploads/2019/01/hamster-768x432.jpg" alt="Avatar" class="avatar">
         <h1 class="user-name">Roslik Oleg</h1>
-        </header>
-    <main class="all"></main>
-        <h2 class="h">About me</h2>
-        <p behavior="alternate" class="about-me">
+        <h2 class="title" id="about-me">About me</h2>
+        <div class="about-me">
          I like to learn something new. I am in school, in the 10th grade. I lead a healthy and active life. My favorite sport is volleyball.
          <br>
          Ever since elementary school, I have been drawn to programming.In the future I plan to become a front-end developer
-        </p>
-        <h2 class="h">
+        </div>
+        <h2 class="title" id="skills">
             Skills
         </h2>
         <ul class="skills-list">
@@ -29,14 +41,21 @@
             <li>Git</li>
             <li>English-A2</li>
         </ul>
-        <h2 class="h">
+        <h2 class="title" id="contact">
             Contact
         </h2>
-            <ul class="contact">
+            <ul class="contact" >
                 <li>My discord: Олежик#3345</li>
-                <li>Email:oleguo534@hmail.com</li>
+                <li>Email:oleguo534@gmail.com</li>
                 <li>Address:Belarus,Minsk,Stolbtc</li>
             </ul>
     </main>
+    <footer class="footer">
+        <a href="https://github.com/Oleg87312" class="github">My GitHub</a>
+        <p class="year">2022-2023</p>
+        <a href="https://rs.school/js/" class="rs">
+            <img src="https://petr9ra.github.io/rsschool-cv/img/rs_school_js.svg" width="86" height="32" alt="RS School">
+        </a>
+    </footer>
 </body>
 </html>
