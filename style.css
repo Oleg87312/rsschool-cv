@@ -25,5 +25,20 @@ body{
     font-size: 25px;
     font-weight: 400;
     margin-left: 20px;
+    margin-right: 0;
+    float: left;
+}
+.skills{
+    font-size: 30px;
+    font-family: "Poppins", Arial, sans-serif;
+    float: left;
+    background-color: #8c8b8b;
+    width: 100%;
+}
+.skills-list{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 0;
     float: left;
 }
